@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: #d3efdf;
+  padding: 25px;
+  max-width: 760px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid #b1c9bb;
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 1px solid #b1c9bb;
+  padding: 0 0 10px;
+  color: #57635c;
+  /* display: inline-block; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  position: relative;
+}
+
+#search-input {
+  width: 100px;
+  display: none;
+  padding: 5px;
+}
+#search {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.new-task-container {
+  text-align: center;
+}
+
+.box {
+  padding: 10px 15px;
+  border: 2px solid #b1c9bb;
+  border-radius: 5px;
+  background: #fff;
+  margin: 15px 0;
+}
+
+.todo-list {
+  float: left;
+  width: 50%;
+}
+
+.completet-list {
+  float: right;
+  width: 46%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.update {
+  float: right;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
+
+.delete {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
+
+.incom-span {
+  float: right;
+}
+
+.complete-span {
+  display: flex;
+  justify-content: space-between;
+}
+.editBtn {
+  margin-right: 5px;
+}
+.edit-input {
+  width: 150px;
+}
