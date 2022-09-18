@@ -7,7 +7,7 @@ let editBtn = document.querySelector(".editBtn");
 let search = document.querySelector("#search");
 let searchInput = document.querySelector("#search-input");
 
-console.log(incompleteUl);
+// console.log(incompleteUl);
 // search.addEventListener("click", showInput);
 function showInput() {
   if (searchInput.style.display === "inline-block") {
@@ -69,7 +69,7 @@ const createTask = (uniqueId, newValue) => {
     let listedValue = label.textContent;
     label.id = uniqueId;
 
-    console.log(completeUl);
+    // console.log(completeUl);
     if (editBtn.textContent === "Edit") {
       const input = document.createElement("input");
       input.type = "text";
@@ -97,7 +97,7 @@ const createTask = (uniqueId, newValue) => {
         }
         return el;
       });
-      console.log(newValue);
+      // console.log(newValue);
       localStorage.setItem("Items", JSON.stringify(item));
     }
   });
